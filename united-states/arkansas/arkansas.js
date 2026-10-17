@@ -1,3 +1,8 @@
-// Generated directory metadata; public geographic tree.
-export const directory = Object.freeze({"name":"arkansas","repository":"america","path":"united-states/arkansas","depth":2,"children":["bella-vista","benton","bentonville","bryant","cabot","el-dorado","fort-smith","hot-springs","jonesboro","little-rock","maumelle","north-little-rock","paragould","pine-bluff","rogers","russellville","searcy","siloam-springs","springdale","van-buren","west-memphis"]});
+// Hierarchical geographic directory module. Children are loaded only on demand.
+export const directory = Object.freeze({"name":"arkansas","repository":"america","path":"united-states/arkansas","depth":2,"parent":"united-states","children":["bella-vista","benton","bentonville","bryant","cabot","el-dorado","fort-smith","hot-springs","jonesboro","little-rock","maumelle","north-little-rock","paragould","pine-bluff","rogers","russellville","searcy","siloam-springs","springdale","van-buren","west-memphis"]});
+export const childModules = Object.freeze({"bella-vista":"./bella-vista/bella-vista.js","benton":"./benton/benton.js","bentonville":"./bentonville/bentonville.js","bryant":"./bryant/bryant.js","cabot":"./cabot/cabot.js","el-dorado":"./el-dorado/el-dorado.js","fort-smith":"./fort-smith/fort-smith.js","hot-springs":"./hot-springs/hot-springs.js","jonesboro":"./jonesboro/jonesboro.js","little-rock":"./little-rock/little-rock.js","maumelle":"./maumelle/maumelle.js","north-little-rock":"./north-little-rock/north-little-rock.js","paragould":"./paragould/paragould.js","pine-bluff":"./pine-bluff/pine-bluff.js","rogers":"./rogers/rogers.js","russellville":"./russellville/russellville.js","searcy":"./searcy/searcy.js","siloam-springs":"./siloam-springs/siloam-springs.js","springdale":"./springdale/springdale.js","van-buren":"./van-buren/van-buren.js","west-memphis":"./west-memphis/west-memphis.js"});
+export async function loadChild(name) {
+  if (!Object.prototype.hasOwnProperty.call(childModules, name)) throw new RangeError("Unknown child directory: " + name);
+  return import(new URL(childModules[name], import.meta.url).href);
+}
 export default directory;

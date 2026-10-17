@@ -1,3 +1,8 @@
-// Generated directory metadata; public geographic tree.
-export const directory = Object.freeze({"name":"valparaiso","repository":"america","path":"chile/valparaiso","depth":2,"children":["cabildo","cartagena","casablanca","concon","el-quisco","hacienda-la-calera","la-calera","la-cruz","la-ligua","limache","llaillay","los-andes","placilla","putaendo","quillota","quilpue","quintero","san-antonio","san-esteban","san-felipe","villa-alemana","vina-del-mar"]});
+// Hierarchical geographic directory module. Children are loaded only on demand.
+export const directory = Object.freeze({"name":"valparaiso","repository":"america","path":"chile/valparaiso","depth":2,"parent":"chile","children":["cabildo","cartagena","casablanca","concon","el-quisco","hacienda-la-calera","la-calera","la-cruz","la-ligua","limache","llaillay","los-andes","placilla","putaendo","quillota","quilpue","quintero","san-antonio","san-esteban","san-felipe","villa-alemana","vina-del-mar"]});
+export const childModules = Object.freeze({"cabildo":"./cabildo/cabildo.js","cartagena":"./cartagena/cartagena.js","casablanca":"./casablanca/casablanca.js","concon":"./concon/concon.js","el-quisco":"./el-quisco/el-quisco.js","hacienda-la-calera":"./hacienda-la-calera/hacienda-la-calera.js","la-calera":"./la-calera/la-calera.js","la-cruz":"./la-cruz/la-cruz.js","la-ligua":"./la-ligua/la-ligua.js","limache":"./limache/limache.js","llaillay":"./llaillay/llaillay.js","los-andes":"./los-andes/los-andes.js","placilla":"./placilla/placilla.js","putaendo":"./putaendo/putaendo.js","quillota":"./quillota/quillota.js","quilpue":"./quilpue/quilpue.js","quintero":"./quintero/quintero.js","san-antonio":"./san-antonio/san-antonio.js","san-esteban":"./san-esteban/san-esteban.js","san-felipe":"./san-felipe/san-felipe.js","villa-alemana":"./villa-alemana/villa-alemana.js","vina-del-mar":"./vina-del-mar/vina-del-mar.js"});
+export async function loadChild(name) {
+  if (!Object.prototype.hasOwnProperty.call(childModules, name)) throw new RangeError("Unknown child directory: " + name);
+  return import(new URL(childModules[name], import.meta.url).href);
+}
 export default directory;

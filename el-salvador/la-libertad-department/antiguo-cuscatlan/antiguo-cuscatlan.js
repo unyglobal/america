@@ -1,3 +1,8 @@
-// Generated directory metadata; public geographic tree.
-export const directory = Object.freeze({"name":"antiguo-cuscatlan","repository":"america","path":"el-salvador/la-libertad-department/antiguo-cuscatlan","depth":3,"children":["reparto-cosmopolitan","residencial-casa-linda","residencial-el-alcazar-de-madre-selva","residencial-santa-elena","residencial-villas-de-santa-elena","urbanizacion-bosques-de-santa-elena-uno","urbanizacion-madre-selva","urbanizacion-portal-de-santa-elena"]});
+// Hierarchical geographic directory module. Children are loaded only on demand.
+export const directory = Object.freeze({"name":"antiguo-cuscatlan","repository":"america","path":"el-salvador/la-libertad-department/antiguo-cuscatlan","depth":3,"parent":"el-salvador/la-libertad-department","children":["reparto-cosmopolitan","residencial-casa-linda","residencial-el-alcazar-de-madre-selva","residencial-santa-elena","residencial-villas-de-santa-elena","urbanizacion-bosques-de-santa-elena-uno","urbanizacion-madre-selva","urbanizacion-portal-de-santa-elena"]});
+export const childModules = Object.freeze({"reparto-cosmopolitan":"./reparto-cosmopolitan/reparto-cosmopolitan.js","residencial-casa-linda":"./residencial-casa-linda/residencial-casa-linda.js","residencial-el-alcazar-de-madre-selva":"./residencial-el-alcazar-de-madre-selva/residencial-el-alcazar-de-madre-selva.js","residencial-santa-elena":"./residencial-santa-elena/residencial-santa-elena.js","residencial-villas-de-santa-elena":"./residencial-villas-de-santa-elena/residencial-villas-de-santa-elena.js","urbanizacion-bosques-de-santa-elena-uno":"./urbanizacion-bosques-de-santa-elena-uno/urbanizacion-bosques-de-santa-elena-uno.js","urbanizacion-madre-selva":"./urbanizacion-madre-selva/urbanizacion-madre-selva.js","urbanizacion-portal-de-santa-elena":"./urbanizacion-portal-de-santa-elena/urbanizacion-portal-de-santa-elena.js"});
+export async function loadChild(name) {
+  if (!Object.prototype.hasOwnProperty.call(childModules, name)) throw new RangeError("Unknown child directory: " + name);
+  return import(new URL(childModules[name], import.meta.url).href);
+}
 export default directory;

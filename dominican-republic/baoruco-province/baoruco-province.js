@@ -1,3 +1,8 @@
-// Generated directory metadata; public geographic tree.
-export const directory = Object.freeze({"name":"baoruco-province","repository":"america","path":"dominican-republic/baoruco-province","depth":2,"children":["neiba"]});
+// Hierarchical geographic directory module. Children are loaded only on demand.
+export const directory = Object.freeze({"name":"baoruco-province","repository":"america","path":"dominican-republic/baoruco-province","depth":2,"parent":"dominican-republic","children":["neiba"]});
+export const childModules = Object.freeze({"neiba":"./neiba/neiba.js"});
+export async function loadChild(name) {
+  if (!Object.prototype.hasOwnProperty.call(childModules, name)) throw new RangeError("Unknown child directory: " + name);
+  return import(new URL(childModules[name], import.meta.url).href);
+}
 export default directory;

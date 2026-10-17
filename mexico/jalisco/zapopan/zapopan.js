@@ -1,3 +1,8 @@
-// Generated directory metadata; public geographic tree.
-export const directory = Object.freeze({"name":"zapopan","repository":"america","path":"mexico/jalisco/zapopan","depth":3,"children":["administrativa-norte-honorable-ayuntamiento","altamira","colonia-loma-blanca","conjunto-patria","ecologica-seattle","el-capullo","hospital-san-juan-de-dios","jacarandas","la-hoja-verde","republica","san-miguel-de-la-canada","san-miguel-de-la-colina","tepeyac"]});
+// Hierarchical geographic directory module. Children are loaded only on demand.
+export const directory = Object.freeze({"name":"zapopan","repository":"america","path":"mexico/jalisco/zapopan","depth":3,"parent":"mexico/jalisco","children":["administrativa-norte-honorable-ayuntamiento","altamira","colonia-loma-blanca","conjunto-patria","ecologica-seattle","el-capullo","hospital-san-juan-de-dios","jacarandas","la-hoja-verde","republica","san-miguel-de-la-canada","san-miguel-de-la-colina","tepeyac"]});
+export const childModules = Object.freeze({"administrativa-norte-honorable-ayuntamiento":"./administrativa-norte-honorable-ayuntamiento/administrativa-norte-honorable-ayuntamiento.js","altamira":"./altamira/altamira.js","colonia-loma-blanca":"./colonia-loma-blanca/colonia-loma-blanca.js","conjunto-patria":"./conjunto-patria/conjunto-patria.js","ecologica-seattle":"./ecologica-seattle/ecologica-seattle.js","el-capullo":"./el-capullo/el-capullo.js","hospital-san-juan-de-dios":"./hospital-san-juan-de-dios/hospital-san-juan-de-dios.js","jacarandas":"./jacarandas/jacarandas.js","la-hoja-verde":"./la-hoja-verde/la-hoja-verde.js","republica":"./republica/republica.js","san-miguel-de-la-canada":"./san-miguel-de-la-canada/san-miguel-de-la-canada.js","san-miguel-de-la-colina":"./san-miguel-de-la-colina/san-miguel-de-la-colina.js","tepeyac":"./tepeyac/tepeyac.js"});
+export async function loadChild(name) {
+  if (!Object.prototype.hasOwnProperty.call(childModules, name)) throw new RangeError("Unknown child directory: " + name);
+  return import(new URL(childModules[name], import.meta.url).href);
+}
 export default directory;

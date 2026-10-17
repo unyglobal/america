@@ -1,3 +1,8 @@
-// Generated directory metadata; public geographic tree.
-export const directory = Object.freeze({"name":"chile","repository":"america","path":"chile","depth":1,"children":["antofagasta","araucania","arica-y-parinacota-region","atacama","aysen","biobio","canete","canete-a","coquimbo-region","los-lagos-region","los-rios-region","maule-region","nuble","o-higgins-region","region-of-magallanes","santiago-metropolitan","tarapaca","valparaiso"]});
+// Hierarchical geographic directory module. Children are loaded only on demand.
+export const directory = Object.freeze({"name":"chile","repository":"america","path":"chile","depth":1,"parent":"","children":["antofagasta","araucania","arica-y-parinacota-region","atacama","aysen","biobio","canete","canete-a","coquimbo-region","los-lagos-region","los-rios-region","maule-region","nuble","o-higgins-region","region-of-magallanes","santiago-metropolitan","tarapaca","valparaiso"]});
+export const childModules = Object.freeze({"antofagasta":"./antofagasta/antofagasta.js","araucania":"./araucania/araucania.js","arica-y-parinacota-region":"./arica-y-parinacota-region/arica-y-parinacota-region.js","atacama":"./atacama/atacama.js","aysen":"./aysen/aysen.js","biobio":"./biobio/biobio.js","canete":"./canete/canete.js","canete-a":"./canete-a/canete-a.js","coquimbo-region":"./coquimbo-region/coquimbo-region.js","los-lagos-region":"./los-lagos-region/los-lagos-region.js","los-rios-region":"./los-rios-region/los-rios-region.js","maule-region":"./maule-region/maule-region.js","nuble":"./nuble/nuble.js","o-higgins-region":"./o-higgins-region/o-higgins-region.js","region-of-magallanes":"./region-of-magallanes/region-of-magallanes.js","santiago-metropolitan":"./santiago-metropolitan/santiago-metropolitan.js","tarapaca":"./tarapaca/tarapaca.js","valparaiso":"./valparaiso/valparaiso.js"});
+export async function loadChild(name) {
+  if (!Object.prototype.hasOwnProperty.call(childModules, name)) throw new RangeError("Unknown child directory: " + name);
+  return import(new URL(childModules[name], import.meta.url).href);
+}
 export default directory;

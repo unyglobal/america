@@ -1,3 +1,8 @@
-// Generated directory metadata; public geographic tree.
-export const directory = Object.freeze({"name":"el-salvador","repository":"america","path":"el-salvador","depth":1,"children":["ahuachapan","cabanas","chalatenango-department","cuscatlan","la-libertad-department","la-paz-department","la-union","morazan","san-miguel-department","san-salvador-department","san-vicente-department","santa-ana-department","sonsonate-department","usulutan"]});
+// Hierarchical geographic directory module. Children are loaded only on demand.
+export const directory = Object.freeze({"name":"el-salvador","repository":"america","path":"el-salvador","depth":1,"parent":"","children":["ahuachapan","cabanas","chalatenango-department","cuscatlan","la-libertad-department","la-paz-department","la-union","morazan","san-miguel-department","san-salvador-department","san-vicente-department","santa-ana-department","sonsonate-department","usulutan"]});
+export const childModules = Object.freeze({"ahuachapan":"./ahuachapan/ahuachapan.js","cabanas":"./cabanas/cabanas.js","chalatenango-department":"./chalatenango-department/chalatenango-department.js","cuscatlan":"./cuscatlan/cuscatlan.js","la-libertad-department":"./la-libertad-department/la-libertad-department.js","la-paz-department":"./la-paz-department/la-paz-department.js","la-union":"./la-union/la-union.js","morazan":"./morazan/morazan.js","san-miguel-department":"./san-miguel-department/san-miguel-department.js","san-salvador-department":"./san-salvador-department/san-salvador-department.js","san-vicente-department":"./san-vicente-department/san-vicente-department.js","santa-ana-department":"./santa-ana-department/santa-ana-department.js","sonsonate-department":"./sonsonate-department/sonsonate-department.js","usulutan":"./usulutan/usulutan.js"});
+export async function loadChild(name) {
+  if (!Object.prototype.hasOwnProperty.call(childModules, name)) throw new RangeError("Unknown child directory: " + name);
+  return import(new URL(childModules[name], import.meta.url).href);
+}
 export default directory;

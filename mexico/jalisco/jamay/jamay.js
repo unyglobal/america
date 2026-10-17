@@ -1,3 +1,8 @@
-// Generated directory metadata; public geographic tree.
-export const directory = Object.freeze({"name":"jamay","repository":"america","path":"mexico/jalisco/jamay","depth":3,"children":["camino-real","centro-barrio-copal","centro-barrio-guanajo","centro-barrio-tejas","el-arroyo","el-guayabal","el-salto","el-seminario","el-trompo","el-trompo-uno","escritores-mexicanos","guadalupe","jamay-uno","la-castellana","pipila","san-isidro","santos-martires","tepeyac"]});
+// Hierarchical geographic directory module. Children are loaded only on demand.
+export const directory = Object.freeze({"name":"jamay","repository":"america","path":"mexico/jalisco/jamay","depth":3,"parent":"mexico/jalisco","children":["camino-real","centro-barrio-copal","centro-barrio-guanajo","centro-barrio-tejas","el-arroyo","el-guayabal","el-salto","el-seminario","el-trompo","el-trompo-uno","escritores-mexicanos","guadalupe","jamay-uno","la-castellana","pipila","san-isidro","santos-martires","tepeyac"]});
+export const childModules = Object.freeze({"camino-real":"./camino-real/camino-real.js","centro-barrio-copal":"./centro-barrio-copal/centro-barrio-copal.js","centro-barrio-guanajo":"./centro-barrio-guanajo/centro-barrio-guanajo.js","centro-barrio-tejas":"./centro-barrio-tejas/centro-barrio-tejas.js","el-arroyo":"./el-arroyo/el-arroyo.js","el-guayabal":"./el-guayabal/el-guayabal.js","el-salto":"./el-salto/el-salto.js","el-seminario":"./el-seminario/el-seminario.js","el-trompo":"./el-trompo/el-trompo.js","el-trompo-uno":"./el-trompo-uno/el-trompo-uno.js","escritores-mexicanos":"./escritores-mexicanos/escritores-mexicanos.js","guadalupe":"./guadalupe/guadalupe.js","jamay-uno":"./jamay-uno/jamay-uno.js","la-castellana":"./la-castellana/la-castellana.js","pipila":"./pipila/pipila.js","san-isidro":"./san-isidro/san-isidro.js","santos-martires":"./santos-martires/santos-martires.js","tepeyac":"./tepeyac/tepeyac.js"});
+export async function loadChild(name) {
+  if (!Object.prototype.hasOwnProperty.call(childModules, name)) throw new RangeError("Unknown child directory: " + name);
+  return import(new URL(childModules[name], import.meta.url).href);
+}
 export default directory;
