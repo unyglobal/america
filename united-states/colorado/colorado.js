@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"colorado","repository":"america","path":"united-states/colorado","depth":2,"children":["arvada","boulder","broomfield","canon-city","castle-rock","castlewood","centennial","cimarron-hills","colorado-springs","columbine","commerce-city","dakota-ridge","denver","durango","fort-collins","fountain","golden","grand-junction","greeley","greenwood-village","highlands-ranch","ken-caryl","littleton","longmont","loveland","montrose","northglenn","parker","pueblo","pueblo-west","security-widefield","sherrelwood","southglenn","thornton","wheat-ridge"]});
+export default directory;

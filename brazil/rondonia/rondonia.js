@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"rondonia","repository":"america","path":"brazil/rondonia","depth":2,"children":["alta-floresta-d-oeste","alto-paraiso","ariquemes","cacoal","candeias-do-jamari","cerejeiras","colorado-do-oeste","espigao-doeste","guajara-mirim","jaru","ji-parana","machadinho-d-oeste","monte-negro","nova-mamore","ouro-preto-do-oeste","pimenta-bueno","porto-velho","presidente-medici","rolim-de-moura","rolim-de-moura-do-guapore","sao-francisco-do-guapore","sao-miguel-do-guapore","vilhena"]});
+export default directory;

@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"san-nicolas-de-los-garza","repository":"america","path":"mexico/nuevo-leon/san-nicolas-de-los-garza","depth":3,"children":["anahuac","ancestra","chapultepec","el-roble-primer-sector","el-roble-segundo-sector","parques-de-anahuac","potrero-de-anahuac-primer-sector","potrero-de-anahuac-segundo-sector","potrero-de-anahuac-tercer-sector","privada-chapultepec","residencial-nova-primer-sector","residencial-nova-segundo-sector","roble-norte","royal-trailer-park","villa-las-puentes","villa-universidad"]});
+export default directory;

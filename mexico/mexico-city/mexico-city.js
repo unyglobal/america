@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"mexico-city","repository":"america","path":"mexico/mexico-city","depth":2,"children":["alvaro-obregon","azcapotzalco","colonia-del-valle","colonia-nativitas","coyoacan","delegacion-cuajimalpa-de-morelos","gustavo-adolfo-madero","iztacalco","iztapalapa","magdalena-contreras","miguel-hidalgo","milpa-alta","polanco","san-antonio-tecomitl","san-juan-ixtayopan","san-lorenzo-acopilco","san-miguel-ajusco","san-miguel-topilejo","san-pablo-oztotepec","tlahuac","tlalpan","xochimilco"]});
+export default directory;

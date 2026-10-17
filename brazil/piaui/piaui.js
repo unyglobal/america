@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"piaui","repository":"america","path":"brazil/piaui","depth":2,"children":["altos","amarante","barras","bom-jesus","buriti-dos-lopes","campo-maior","canto-do-buriti","castelo-do-piaui","cocal","corrente","demerval-lobao","esperantina","floriano","inhuma","jaicos","jose-de-freitas","luis-correia","luzilandia","miguel-alves","oeiras","parnaiba","paulistana","pedro-ii","picos","pio-ix","piracuruca","piripiri","regeneracao","sao-joao-do-piaui","sao-miguel-do-tapuio","sao-raimundo-nonato","teresina","uniao","urucui","valenca-do-piaui"]});
+export default directory;

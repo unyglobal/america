@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"dominican-republic","repository":"america","path":"dominican-republic","depth":1,"children":["azua-province","baoruco-province","barahona-province","dajabon","duarte-province","el-seibo","espaillat-province","hato-mayor-province","hermanas-mirabal","la-altagracia-province","la-romana","la-vega","maria-trinidad-sanchez","monsenor-nouel","monte-cristi-province","monte-plata-province","nacional","peravia","puerto-plata","san-cristobal","san-jose-de-ocoa","san-juan-province","san-pedro-de-macoris","sanchez-ramirez","santiago-province","santiago-rodriguez","santo-domingo-province","valverde-province"]});
+export default directory;

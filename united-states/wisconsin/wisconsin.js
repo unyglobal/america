@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"wisconsin","repository":"america","path":"united-states/wisconsin","depth":2,"children":["appleton","ashwaubenon","beaver-dam","beloit","caledonia","de-pere","eau-claire","fond-du-lac","green-bay","howard","janesville","kaukauna","kenosha","la-crosse","manitowoc","marshfield","menasha","menomonee-falls","menomonie","mequon","middleton","milwaukee","muskego","neenah","new-berlin","north-la-crosse","oak-creek","oconomowoc","onalaska","oshkosh","pleasant-prairie","racine","river-falls","sheboygan","south-milwaukee","stevens-point","sun-prairie","superior","waukesha","wausau","wauwatosa","west-allis","west-bend","wisconsin-rapids"]});
+export default directory;

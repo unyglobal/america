@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"west-valley-city","repository":"america","path":"united-states/utah/west-valley-city","depth":3,"children":["b-and-b-estates","cowan-west-valley-estates","day-park","harmony-lane","harvest-park-estates","haslam-estates","hopkins-meadows","huntington-place","kevinwood-estates","mallard","miera-estates","petersen-estates","sundown","sunnyvale-heights","sunnyvale-park","swallow","westgate","westhampton","westward-terrace","willow-cove","woodbury-estates","woodcove"]});
+export default directory;

@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"america","repository":"america","path":"","depth":0,"children":["antigua-and-barbuda","argentina","bahamas","barbados","belize","bolivia","brazil","canada","chile","colombia","costa-rica","cuba","dominica","dominican-republic","ecuador","el-salvador","grenada","guatemala","guyana","haiti","honduras","jamaica","mexico","nicaragua","panama","paraguay","peru","saint-kitts-and-nevis","saint-lucia","saint-vincent-and-the-grenadines","suriname","trinidad-and-tobago","united-states","uruguay","venezuela"]});
+export default directory;

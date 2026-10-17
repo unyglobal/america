@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"antioquia","repository":"america","path":"colombia/antioquia","depth":2,"children":["abejorral","andes","apartado","bello","betulia","caldas","carepa","carmen-de-viboral","caucasia","chigorodo","ciudad-bolivar","concordia","copacabana","dabeiba","el-bagre","envigado","fredonia","frontino","itagui","ituango","la-ceja","la-estrella","marinilla","medellin","nechi","puerto-berrio","puerto-triunfo","retiro","rionegro","sabaneta","salgar","san-juan-de-uraba","san-pedro-de-uraba","san-vicente","santa-fe-de-antioquia","santa-rosa-de-osos","santuario","segovia","sonson","turbo","urrao","yarumal","yondo","zaragoza"]});
+export default directory;

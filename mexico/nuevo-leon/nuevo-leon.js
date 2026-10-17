@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"nuevo-leon","repository":"america","path":"mexico/nuevo-leon","depth":2,"children":["anahuac","cadereyta","cadereyta-jimenez","cienega-de-flores","ciudad-apodaca","ciudad-benito-juarez","ciudad-de-allende","ciudad-general-escobedo","ciudad-sabinas-hidalgo","fraccionamiento-real-palmas","garcia","hidalgo","jardines-de-la-silla","linares","mitras-poniente","montemorelos","monterrey","parque-industrial-ciudad-mitras","san-nicolas-de-los-garza","san-pedro-garza-garcia","santa-catarina","santiago"]});
+export default directory;

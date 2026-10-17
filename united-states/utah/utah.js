@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"utah","repository":"america","path":"united-states/utah","depth":2,"children":["american-fork","bountiful","brigham-city","cedar-city","clearfield","cottonwood-heights","draper","eagle-mountain","east-millcreek","herriman","holladay","hurricane","kaysville","kearns","layton","lehi","magna","midvale","millcreek","north-ogden","north-salt-lake","ogden","orem","pleasant-grove","provo","riverton","roy","saint-george","salt-lake-city","sandy","sandy-hills","south-jordan","south-jordan-heights","south-ogden","south-salt-lake","spanish-fork","springville","taylorsville","tooele","west-jordan","west-valley-city"]});
+export default directory;

@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"espirito-santo","repository":"america","path":"brazil/espirito-santo","depth":2,"children":["afonso-claudio","alegre","anchieta","aracruz","baixo-guandu","barra-de-sao-francisco","cachoeiro-de-itapemirim","cariacica","castelo","colatina","conceicao-da-barra","domingos-martins","ecoporanga","fundao","guacui","guarapari","ibatiba","itapemirim","iuna","linhares","marataizes","marechal-floriano","mimoso-do-sul","montanha","muniz-freire","nova-venecia","pancas","pedro-canario","piuma","rio-bananal","santa-maria-de-jetiba","sao-gabriel-da-palha","serra","sooretama","vargem-alta","vila-velha","vitoria"]});
+export default directory;

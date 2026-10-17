@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"guanajuato","repository":"america","path":"mexico/guanajuato","depth":2,"children":["abasolo","acambaro","apaseo-el-alto","apaseo-el-grande","celaya","centro-familiar-la-soledad","comonfort","cortazar","dolores-hidalgo","irapuato","jaral-del-progreso","juventino-rosas","la-ermita","leon-de-los-aldama","marfil","medina","moroleon","penjamo","purisima-de-bustos","romita","salamanca","salvatierra","san-francisco-del-rincon","san-jose-iturbide","san-luis-de-la-paz","san-miguel-de-allende","silao-de-la-victoria","uriangato","valle-de-santiago","villagran","yuriria"]});
+export default directory;

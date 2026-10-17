@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"licenciado-benito-juarez","repository":"america","path":"mexico/sinaloa/licenciado-benito-juarez","depth":3,"children":["amapas-de-berlanga","ampliacion-jose-vasconcelos","granjas","guadalupe","infonavit-abc","infonavit-quinta-bonita","jose-vasconcelos","liberacion-ochenta-y-nueve","los-pinos","luis-donaldo-colosio-murrieta","manuel-gomez-morin","perfecto-arredondo","popular","praderas-del-sol","primavera","primera-ampliacion","santa-natalia","tapacal","valle-verde","victor-manuel-godoy-angulo","villa-bonita"]});
+export default directory;

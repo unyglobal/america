@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"tegucigalpa","repository":"america","path":"honduras/francisco-morazan-department/tegucigalpa","depth":3,"children":["barrio-guacerique","barrio-la-bolsa","barrio-la-granja","barrio-san-jorge","barrio-villa-adela","colonia-altos-de-miramontes","colonia-el-alamo","colonia-el-socorro","colonia-el-trebol","colonia-humuya","colonia-juan-lindo","colonia-maradiaga","colonia-maria-cristina","colonia-miraflor","colonia-perez","colonia-tiloarque","el-prado","mirador-de-tiloarque","residencial-atlantis","residencial-la-granja-primera-etapa","residencial-la-granja-segunda-etapa"]});
+export default directory;

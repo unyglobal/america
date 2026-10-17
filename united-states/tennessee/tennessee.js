@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"tennessee","repository":"america","path":"united-states/tennessee","depth":2,"children":["brentwood-estates","chattanooga","collierville","cookeville","cordova","dickson","dyersburg","east-brainerd","east-chattanooga","east-ridge","ellendale","farragut","gallatin","goodlettsville","greeneville","hendersonville","johnson-city","kingsport","knoxville","la-vergne","maryville","memphis","mount-juliet","murfreesboro","nashville","new-south-memphis","sevierville","tullahoma"]});
+export default directory;

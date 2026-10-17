@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"alberta","repository":"america","path":"canada/alberta","depth":2,"children":["airdrie","auburn-bay","beltline","calgary","camrose","centre-city","chestermere","cochrane","coventry-hills","cranston","edgemont","edmonton","evanston","evergreen","fort-mcmurray","grande-prairie","leduc","lethbridge","lloydminster","mckenzie-towne","medicine-hat","okotoks","panorama-hills","red-deer","saddle-ridge","sherwood-park","spruce-grove","st-albert","stony-plain","sylvan-lake","taradale","tuscany","wihkwentowin"]});
+export default directory;

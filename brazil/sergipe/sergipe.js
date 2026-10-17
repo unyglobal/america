@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"sergipe","repository":"america","path":"brazil/sergipe","depth":2,"children":["aquidaba","aracaju","barra-dos-coqueiros","boquim","campo-do-brito","caninde-de-sao-francisco","carira","carmopolis","cristinapolis","estancia","indiaroba","itabaianinha","itaporanga-d-ajuda","japaratuba","lagarto","laranjeiras","maruim","neopolis","nossa-senhora-da-gloria","nossa-senhora-das-dores","nossa-senhora-do-socorro","poco-redondo","poco-verde","porto-da-folha","propria","riachao-do-dantas","ribeiropolis","salgado","sao-cristovao","simao-dias","tobias-barreto","umbauba"]});
+export default directory;

@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"matamoros","repository":"america","path":"mexico/coahuila/matamoros","depth":3,"children":["ano-de-juarez","benito-juarez","colonia-centro","ejidal","el-chalet","emiliano-zapata-sur","eulalio-gutierrez-trevino","felipe-zarate","ferrocarril","francisco-i-madero","francisco-villa","galeme-i","galeme-ii","gilberto-ordaz-rocha","hortalizas","jacinto-argumedo","jose-ayup-tedy","jose-de-las-fuentes-rodriguez","jose-lopez-portillo","jose-t-luna","lazaro-cardenas","los-lirios","maravillas","ninos-heroes","rastro-viejo","santa-monica","vegas-de-marrufo-oriente","vegas-de-marrufo-poniente","veintinueve-de-junio","veintinueve-de-junio-ampliacion"]});
+export default directory;

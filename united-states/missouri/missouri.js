@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"missouri","repository":"america","path":"united-states/missouri","depth":2,"children":["affton","ballwin","blue-springs","cape-girardeau","chesterfield","creve-coeur","east-independence","ferguson","florissant","fort-leonard-wood","gladstone","grandview","hannibal","hazelwood","jefferson-city","joplin","kirksville","kirkwood","lee-s-summit","lemay","liberty","maryland-heights","mehlville","nixa","oakville","old-jamestown","overland","ozark","poplar-bluff","raymore","raytown","republic","rolla","saint-joseph","saint-peters","sedalia","sikeston","spanish-lake","st-louis","warrensburg","webster-groves","wentzville","wildwood"]});
+export default directory;

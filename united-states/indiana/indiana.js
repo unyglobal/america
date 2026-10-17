@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"indiana","repository":"america","path":"united-states/indiana","depth":2,"children":["broad-ripple","brownsburg","carmel","crawfordsville","crown-point","dyer","east-chicago","elkhart","evansville","fairfield-heights","fishers","fort-wayne","gary","goshen","granger","griffith","hobart","indianapolis","jasper","jeffersonville","kokomo","logansport","merrillville","michigan-city","mishawaka","muncie","munster","new-albany","noblesville","schererville","south-bend","terre-haute","valparaiso","vincennes","west-lafayette","zionsville"]});
+export default directory;

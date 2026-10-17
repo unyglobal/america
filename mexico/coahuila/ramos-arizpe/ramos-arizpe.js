@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"ramos-arizpe","repository":"america","path":"mexico/coahuila/ramos-arizpe","depth":3,"children":["ampliacion-la-cienega","ano-de-juarez","capellania","colonia-del-valle-i","el-baratillo","el-cura","eulalio-gutierrez","fraccionamiento-del-bosque","giron-de-castro","huerta-el-cura","la-cienega","la-esmeralda","la-hacienda","la-hacienda-i","la-libertad","lazaro-cardenas","loma-linda","molinos-del-rey","nueva-esperanza","privadas-el-campanario","san-antonio","zona-centro"]});
+export default directory;

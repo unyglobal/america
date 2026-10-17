@@ -1,0 +1,3 @@
+// Generated directory metadata; public geographic tree.
+export const directory = Object.freeze({"name":"mato-grosso-do-sul","repository":"america","path":"brazil/mato-grosso-do-sul","depth":2,"children":["agua-clara","amambai","anastacio","aparecida-do-taboado","aquidauana","bataguassu","caarapo","cassilandia","chapadao-do-sul","corumba","costa-rica","coxim","dourados","fatima-do-sul","itapora","itaquirai","ladario","maracaju","miranda","navirai","nova-alvorada-do-sul","nova-andradina","paranaiba","ponta-pora","ribas-do-rio-pardo","rio-brilhante","rio-verde-de-mato-grosso","sao-gabriel-do-oeste","sidrolandia","terenos","tres-lagoas"]});
+export default directory;
